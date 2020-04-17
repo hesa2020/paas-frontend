@@ -192,14 +192,6 @@ class PageRoot extends ApiComponent<
                 <Col lg={{ span: 12 }} xs={{ span: 20 }}>
                   <div>
                     <h3 style={{ color: "#fff" }}>
-                      <img
-                        alt="logo"
-                        src="/icon-512x512.png"
-                        style={{
-                          height: 45,
-                          marginRight: 10
-                        }}
-                      />
                       Agent
                       {self.createUpdateAvailableIfNeeded()}
                     </h3>
@@ -209,17 +201,6 @@ class PageRoot extends ApiComponent<
               {!self.props.isMobile && (
                 <Col span={12}>
                   <Row type="flex" justify="end">
-                    <NewTabLink url="https://github.com/agent/agent">
-                      <span style={{ marginRight: 20 }}>GitHub</span>
-                    </NewTabLink>
-
-                    <span
-                      style={{
-                        marginRight: 70
-                      }}
-                    >
-                      <NewTabLink url="https://agent.com">Docs</NewTabLink>
-                    </span>
                     <span>
                       <span
                         style={{
